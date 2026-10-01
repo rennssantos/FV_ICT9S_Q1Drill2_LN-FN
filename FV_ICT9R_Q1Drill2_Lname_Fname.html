@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+            background-color: rgb(136, 136, 216);
+            font-family: Consolas;
+        }
+        header{
+            text-align: center;
+        }
+        section{
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        img{
+            display: block;
+            margin: auto;
+            height: 100px;
+            width: 100px;
+            padding: 0px;
+        }
+        input[type="text"], select, textarea, input[type="submit"] {
+            width: 94%;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        input[type="placeholder"] {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RATE A MOVIE</h1>
+            <br>
+        <p>say something about the form</p>
+    </header>
+
+    <br>
+
+    <section>
+        <form action="">
+            <img src="" alt="logo">
+            <br>
+            
+            <label for="movie">Movie Title</label>
+            <input type="text" id="movie" name="movie" placeholder="Enter here...">
+
+            <br>
+            <label for="genre">Genre/s</label>
+            <br>
+            <input type="checkbox" id="genre1" name="Genre1" value="Action">
+            <label for="genre1">Action</label>
+            <!--make a copy of lines 31 - 32, change the ID, value, name, and label-->
+
+            <br>
+            <label for="rating">Rating</label>
+            <br>
+            <input type="radio" id="rate1" name="rate" value="star1">
+            <label for="rate1">⭐</label>
+            <!--make a copy of lines 38-39, change the ID, value, and label-->
+
+            <br>
+            <textarea id="review" name="review" placeholder="Write a review here..." rows="5" cols="40"></textarea>
+            <br>
+
+            <input type="submit" id="submit" name="submit" value="Submit Review">
+            <br>
+            
+            For movie review tips, click<a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/" target="_blank">here</a>
+
+        </form>
+    </section>
+    
+    <!--Reference
+	    Nyfa, & Nyfa. (2024, March 23). How to write a movie review: 10 essential tips. NYFA. https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/
+    -->
+</body>
+</html>
